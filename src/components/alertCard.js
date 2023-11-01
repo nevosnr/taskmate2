@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const AlertCard = ({result, children}) => {
+export const AlertCard = ({ result, children}) => {
   return (
-    <div className={'box ${result}'}>
+    <div className={`box ${result}`}>
         {children}
     </div>
   )

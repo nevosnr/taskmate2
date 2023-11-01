@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { TaskCard } from './TaskCard';
-import { AlertCard } from './alertCard';
+import { AlertCard } from './AlertCard';
 
 export const TaskList = (props) => {
     const [task, setTasks] = useState([
@@ -31,7 +31,7 @@ export const TaskList = (props) => {
       </AlertCard>
 
       <AlertCard result='warning'>
-      <p className="title">Lorem ipsum dolor sit amet.</p>
+        <p className="title">Lorem ipsum dolor sit amet.</p>
         <p className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, laboriosam?</p>
       
       </AlertCard>
