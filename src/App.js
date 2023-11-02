@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className='App'>
       <Header />
-      <TaskList title="By Dave"/>
+      <TaskList title="By Edan"/>
       
     </div>
   )
