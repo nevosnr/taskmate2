@@ -1,5 +1,7 @@
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <p>copywrite 2030</p>
+    </footer>
   )
 }
